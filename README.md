@@ -1,0 +1,2 @@
+# dynamicDns
+dns ip updater
