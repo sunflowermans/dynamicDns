@@ -7,7 +7,7 @@ scheduledJobSeconds = 6 * 60 * 60 # 6 hours
 ddnsbase = 'https://dynamicdns.park-your-domain.com/update?host={0}&domain={1}&password={2}&ip={3}'
 atsub = '@'
 wwwsub = 'www'
-configPath = 'dnsConfig.txt' #comma-delimited list of DOMAIN,PASSWORD
+configPath = '../../dnsConfig.txt' #comma-delimited list of DOMAIN,PASSWORD
 
 def get_domain_from_file():
     # Open the file in read mode
